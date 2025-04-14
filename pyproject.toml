@@ -23,7 +23,7 @@ classifiers = [
   "Typing :: Typed",
 ]
 dependencies = [
-    "auto-lazy-imports>=0.4.0",
+    "auto-lazy-imports>=0.4.2",
     "hatchling>=1.0.0",
 ]
 
