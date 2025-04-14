@@ -1,8 +1,9 @@
 # Hatch-Lazyimports
+
 ![PyPI](https://img.shields.io/pypi/v/hatch-lazyimports)
 ![PyPI - License](https://img.shields.io/pypi/l/hatch-lazyimports)
 ![PyPI - Wheel](https://img.shields.io/pypi/wheel/hatch-lazyimports)
-![Tests](https://github.com/hmiladhia/hatch-lazyimports/actions/workflows/tests.yml/badge.svg)
+![Tests](https://github.com/hmiladhia/hatch-lazyimports/actions/workflows/quality.yaml/badge.svg)
 [![Copier](https://img.shields.io/endpoint?url=https://raw.githubusercontent.com/copier-org/copier/master/img/badge/badge-grayscale-inverted-border-orange.json)](https://github.com/copier-org/copier)
 [![Ruff](https://img.shields.io/endpoint?url=https://raw.githubusercontent.com/astral-sh/ruff/main/assets/badge/v2.json)](https://github.com/astral-sh/ruff)
 
@@ -13,7 +14,7 @@ It will then, fill the distribution's metadata related entry-point.
 
 ```toml
 [project]
-dependencies = ["auto-lazy-imports>=0.4.0"]
+dependencies = ["auto-lazy-imports>=0.4.1"]
 dynamic = ['entry-points', 'entry-points.lazyimports']
 
 [build-system]

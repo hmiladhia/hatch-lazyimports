@@ -4,11 +4,11 @@ requires-python = ">=3.9"
 
 [[package]]
 name = "auto-lazy-imports"
-version = "0.4.0"
+version = "0.4.1"
 source = { registry = "https://pypi.org/simple" }
-sdist = { url = "https://files.pythonhosted.org/packages/05/c5/aea824534d445e467dcf5284a394b6010ef292fb02db8b5b9a50135165aa/auto_lazy_imports-0.4.0.tar.gz", hash = "sha256:323f3b3a45d5a12f137d67d53a05e6381fa1bf7535b6f3adf92c196e4558f41a", size = 213442 }
+sdist = { url = "https://files.pythonhosted.org/packages/46/88/3477abf3917836a581b455a7a6597738678c8270497a30cc6fd0dfdf38b3/auto_lazy_imports-0.4.1.tar.gz", hash = "sha256:5270f65123f44d7924af6d669fa5265fecc26c372ffaec4a549653d4028ac554", size = 213465 }
 wheels = [
-    { url = "https://files.pythonhosted.org/packages/ab/79/bc7eb88310e74d6cf8d87b8783680b82d696ebf4f7548b373d871ba2fecd/auto_lazy_imports-0.4.0-py3-none-any.whl", hash = "sha256:bffdad28207615b4d8a7ca74ff7aabc03b020d2f0ecc0270b6741832d487bd70", size = 7294 },
+    { url = "https://files.pythonhosted.org/packages/f5/6b/f8f772263caa0631c0b0b528a0d7194e178194621c237778fe65cddbce7b/auto_lazy_imports-0.4.1-py3-none-any.whl", hash = "sha256:58ddacc1f9659b1c87a8cc92765c6f623adb72db70547144c70d31477ebb0e57", size = 7319 },
 ]
 
 [[package]]
@@ -79,7 +79,7 @@ tests = [
 
 [package.metadata]
 requires-dist = [
-    { name = "auto-lazy-imports", specifier = ">=0.4.0" },
+    { name = "auto-lazy-imports", specifier = ">=0.4.1" },
     { name = "hatchling", specifier = ">=1.0.0" },
 ]
 
